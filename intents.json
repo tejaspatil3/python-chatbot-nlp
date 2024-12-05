@@ -45,6 +45,193 @@
         ]
     },
     {
+        "tag": "name",
+        "patterns": [
+            "What's your name",
+            "what is your name",
+            "Do you have a name",
+            "What should I call you"
+        ],
+        "responses": [
+            "You can call me BOTeja.",
+            "My name is BOTeja."
+        ]
+    },
+    {
+        "tag": "diy_general",
+        "patterns": [
+          "Can you suggest a DIY project",
+          "I need a DIY idea",
+          "What DIY project should I try?",
+          "Suggest me a craft idea",
+          "Any DIY suggestions?"
+        ],
+        "responses": [
+          "Sure! How about making a photo frame from popsicle sticks?",
+          "You can try creating a candle holder from old jars!",
+          "Why not make a custom phone stand using cardboard?",
+          "How about a wall hanging using yarn and beads?"
+        ]
+      },
+      
+      {
+        "tag": "diy_material_based",
+        "patterns": [
+          "I have cardboard, what can I make"
+          
+        ],
+        "responses": [
+          "With cardboard, you can create a decorative organizer or a phone stand."
+        ]
+      },
+      {
+        "tag": "diy_material_based",
+        "patterns": [
+          "What can I do with old jars?"
+         
+        ],
+        "responses": [
+           "Old jars can be transformed into candle holders or storage containers."
+        ]
+      },
+      {
+        "tag": "diy_material_based",
+        "patterns": [
+         
+          "Suggest a DIY using paper"
+          
+        ],
+        "responses": [
+          
+          "Using paper, you can try origami crafts or make greeting cards."
+        ]
+      },
+      {
+        "tag": "diy_material_based",
+        "patterns": [
+         
+          "I have some fabric scraps, any ideas"
+          
+        ],
+        "responses": [
+          
+          "Fabric scraps are great for making patchwork coasters or tote bags."
+        
+        ]
+      },
+      {
+        "tag": "diy_material_based",
+        "patterns": [
+         
+          "What DIY can I try with buttons"
+        ],
+        "responses": [
+        
+          "With cardboard, you can also create a fun toy car!"
+        ]
+      },
+      {
+        "tag": "diy_occasion_based",
+        "patterns": [
+          "I want to make something for a birthday gift"
+          
+        ],
+        "responses": [
+          "For a birthday gift, you can make a personalized scrapbook or a photo frame."
+         
+        ]
+      },
+      {
+        "tag": "diy_occasion_based",
+        "patterns": [
+          
+          "What can I make for diwali",
+          "Suggest a DIY project for Valentine’s Day",
+          "Any ideas for a Halloween craft?",
+          "What can I make for a housewarming gift?"
+        ],
+        "responses": [
+          "For a birthday gift, you can make a personalized scrapbook or a photo frame.",
+          "For Christmas, try making a wreath using pinecones and ribbons.",
+          "For Valentine’s Day, you can craft a handmade card or a heart-shaped wall art.",
+          "For Halloween, try creating a spooky lantern using a jar and black paper.",
+          "For a housewarming gift, a DIY planter or a decorative candle holder would be perfect."
+        ]
+      },
+      {
+        "tag": "diy_occasion_based",
+        "patterns": [
+          "I want to make something for a birthday gift"        
+        ],
+        "responses": [
+          "For a birthday gift, you can make a personalized scrapbook or a photo frame."
+          
+        ]
+      },
+      {
+        "tag": "diy_occasion_based",
+        "patterns": [
+          
+          "What can I make for diwali"
+          
+        ],
+        "responses": [
+          
+          "For diwali, try making a lamp with paper , sticks and candle."
+        ]
+      },
+      {
+        "tag": "diy_occasion_based",
+        "patterns": [
+         
+          "Suggest a DIY project for Valentine’s Day"
+          
+        ],
+        "responses": [
+          
+          "For Valentine’s Day, you can craft a handmade card or a heart-shaped wall art."
+        ]
+      },
+      {
+        "tag": "diy_occasion_based",
+        "patterns": [
+         
+          "Any ideas for a Halloween craft"
+          
+        ],
+        "responses": [
+          
+          "For Halloween, try creating a spooky lantern using a jar and black paper."
+          
+        ]
+      },
+      {
+        "tag": "diy_occasion_based",
+        "patterns": [
+         
+          "What can I make for a housewarming gift"
+        ],
+        "responses": [
+         
+          "For a housewarming gift, a DIY planter or a decorative candle holder would be perfect."
+        ]
+      },
+      {
+        "tag": "help",
+        "patterns": [
+          "I need help",
+          "Can you assist me?",
+          "How does this work",
+          "What can you do",
+          "Help me with a project"
+        ],
+        "responses": [
+          "I can suggest DIY projects, provide step-by-step instructions, or help you find ideas based on materials or occasions. What do you need help with?",
+          "Sure, I’m here to assist! Do you need project suggestions, or help with specific materials?"
+        ]
+      },
+    
+    {
         "tag": "about",
         "patterns": [
             "What can you do",
@@ -120,19 +307,7 @@
             "You can check your credit score for free on several websites such as Credit Karma and Credit Sesame."
         ]
     },
-    {
-        "tag": "name",
-        "patterns": [
-            "What's your name",
-            "what is your name",
-            "Do you have a name",
-            "What should I call you"
-        ],
-        "responses": [
-            "You can call me BOTeja.",
-            "My name is BOTeja."
-        ]
-    },
+    
     {
         "tag": "favorite_color",
         "patterns": [
@@ -160,7 +335,7 @@
     {
         "tag": "time",
         "patterns": [
-            "What's the time",
+            "What is the time",
             "Can you tell me the time"
         ],
         "responses": [

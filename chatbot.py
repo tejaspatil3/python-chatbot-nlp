@@ -44,23 +44,14 @@ def chatbot(input_text, vectorizer, clf, intents):
             return random.choice(intent['responses'])
     return "I'm sorry, I didn't understand that."
 
-# Function to save chat history to a file
-def save_chat_history(chat_name):
-    # Save chat history with the provided chat_name
-    if st.session_state.chat_history:
-        chat_filename = f"{chat_name}_chat_history.json"
-        chat_data = {"conversation": st.session_state.chat_history}
-
-        # Write to JSON file
-        with open(chat_filename, 'w') as f:
-            json.dump(chat_data, f, indent=4)
-        st.success(f"Chat history saved as {chat_filename}")
 
 
 # Streamlit interface in main()
 def main():
     # Set page configuration
     st.set_page_config(page_title="BOTeja", layout="centered")
+    st.title("BOTeja")
+    st.write("I can give you DIY Project Ideas")
 
     st.markdown(
         """
@@ -124,32 +115,12 @@ def main():
         # Append user message to chat history
         st.session_state.chat_history.append({"sender": "User", "message": user_input})
 
-        # Generate bot response (Placeholder response for now)
         # Generate chatbot response
-        # bot_response = f"Boteja: You said, '{user_input}'"
         bot_response = chatbot(user_input, vectorizer, clf, intents)
         
         # Add bot message to chat history
         st.session_state.chat_history.append({"sender": "Boteja", "message": bot_response})
     
-
-
-    # Buttons for saving and starting a new conversation
-    col1, col2 = st.columns([1, 1])
-    with col1:
-        if st.button("Save Chat"):
-            if chat_name:
-                save_chat_history(chat_name)
-            else:
-                st.warning("Please enter a chat name first.")
-    with col2:
-        if st.button("Start New Chat"):
-            # Clear chat history and ask for new chat name
-            st.session_state.chat_history = []
-            st.session_state.chat_name = None
-            st.experimental_user = ""
-
-
 # Call the function
 
 if __name__ == '__main__':
