@@ -56,20 +56,11 @@ def save_chat_history(chat_name):
             json.dump(chat_data, f, indent=4)
         st.success(f"Chat history saved as {chat_filename}")
 
-# Function to load and display previous chats
-def load_chat_history(chat_name):
-    chat_filename = f"{chat_name}_chat_history.json"
-    if os.path.exists(chat_filename):
-        with open(chat_filename, 'r') as f:
-            chat_data = json.load(f)
-        return chat_data.get("conversation", [])
-    return []
-
 
 # Streamlit interface in main()
 def main():
     # Set page configuration
-    st.set_page_config(page_title="Chatbot Interface", layout="centered")
+    st.set_page_config(page_title="BOTeja", layout="centered")
 
     st.markdown(
         """
@@ -114,15 +105,6 @@ def main():
     # Chat History
     if "chat_history" not in st.session_state:
         st.session_state.chat_history = []
-
-    # User input for chat name (if starting a new conversation)
-    if "chat_name" not in st.session_state:
-        chat_name = st.text_input("Enter chat name to start a new conversation:", key="chat_name")
-        if chat_name:
-            # Load chat history from a file if it exists
-            st.session_state.chat_history = load_chat_history(chat_name)
-    else:
-        chat_name = st.session_state.chat_name
     
     # Display chat history
     for message in st.session_state.chat_history:

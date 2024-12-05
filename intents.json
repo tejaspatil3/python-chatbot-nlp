@@ -124,6 +124,7 @@
         "tag": "name",
         "patterns": [
             "What's your name",
+            "what is your name",
             "Do you have a name",
             "What should I call you"
         ],
@@ -191,7 +192,7 @@
         "responses": [
             "As a chatbot, I don't eat, but I'm here to help with any questions you have about food!",
             "I may not have taste buds, but I can assist you in finding recipes or restaurants!",
-            "I like to help annd assist you"
+            "I like to help and assist you"
         ]
     },
     {
@@ -223,7 +224,9 @@
         "patterns": [
             "You're awesome",
             "You're great",
-            "I like you"
+            "I like you",
+            "good",
+            "you do good work"
         ],
         "responses": [
             "Thank you! I'm just a program, but I'm here to assist and make your experience better.",
@@ -274,6 +277,7 @@
             "Tell me about your favorite travel spot"
         ],
         "responses": [
+            "shimla is ggod place to travel",
             "I'm just a chatbot, so I don't travel, but there are many beautiful destinations around the world to explore. It depends on your preferences, such as beaches, mountains, historical sites, or bustling cities.",
             "Traveling allows you to experience different cultures, try new cuisines, and create lasting memories."
         ]
