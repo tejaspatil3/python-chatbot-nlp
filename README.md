@@ -55,10 +55,8 @@ resource for unlocking imaginative potential and inspiring hands-on crafting act
 - A system with at least 8GB RAM and a dual-core processor.
 - Stable internet connection for installation and updates.
 
-## Installation
-.
 
-## Usage
+### Usage
 
 1. Open the chatbot in your browser.
 2. Follow the interactive prompts to describe your DIY project preferences.
