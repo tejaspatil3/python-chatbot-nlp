@@ -1,10 +1,10 @@
 # chatbot-int
 this repo holds my chatbot
-# instructions to run 
-  --- Libraries Required
-      -- Streamlit
-      -- NLTK
-      -- scikit-learn
+
+# Boteja
+
+Welcome to the Boteja repository! This chatbot is designed to assist users with DIY (Do-It-Yourself) projects by providing step-by-step instructions, material suggestions, and real-time support. It aims to simplify the process for individuals of all skill levels and encourages creativity and sustainability.
+
 
  save files chatbot.py and intents.json in same folder and run chatbot.py using steanlit run chatbot.py
 
@@ -22,3 +22,48 @@ can find value. Its conversational nature fosters an engaging and user-friendly 
 tool for hobbyists, students, and enthusiasts seeking to explore their creativity. With its focus on 
 personalization, convenience, and sustainability, the DIY Project Suggestion Chatbot serves as a valuable 
 resource for unlocking imaginative potential and inspiring hands-on crafting activities.
+
+
+## Features
+
+- **Personalized Recommendations**: Suggests DIY projects based on user preferences, skill level, and available resources.
+- **Step-by-Step Guidance**: Provides clear instructions to help users complete their chosen projects.
+- **Material Suggestions**: Recommends cost-effective and easily available materials.
+- **Real-Time Support**: Offers troubleshooting assistance and alternative approaches during project execution.
+- **Interactive Interface**: Engages users through a conversational AI platform.
+
+## Requirements
+
+### Software Requirements
+
+- Python 3.8 or above
+- Virtual environment (optional but recommended)
+
+### Python Libraries
+ - NLTK
+ - streamlit
+ - scikit learn
+
+
+### Additional Tools
+
+- Text editor or IDE (e.g., VSCode, PyCharm)
+- Git (for cloning the repository)
+
+### Hardware Requirements
+
+- A system with at least 8GB RAM and a dual-core processor.
+- Stable internet connection for installation and updates.
+
+## Installation
+.
+
+## Usage
+
+1. Open the chatbot in your browser.
+2. Follow the interactive prompts to describe your DIY project preferences.
+3. Get step-by-step instructions and real-time support as you work on your project.
+
+
+I welcome contributions to enhance the Boteja! To contribute:
+
