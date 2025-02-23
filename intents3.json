@@ -1,5 +1,81 @@
 {
     "intents": [
+
+    {
+      "tag": "photo_frame_intro",
+      "patterns": [
+        "How can I make a photo frame from popsicle sticks?",
+        "DIY popsicle stick photo frame",
+        "Steps to make a popsicle stick frame",
+        "Handmade photo frame tutorial",
+        "Popsicle stick craft ideas"
+      ],
+      "responses": [
+        "Making a photo frame from popsicle sticks is a fun and easy DIY project! You’ll need popsicle sticks, glue, paint, and some decorations. Do you want a step-by-step guide?"
+      ]
+    },
+    {
+      "tag": "photo_frame_materials",
+      "patterns": [
+        "What materials do I need?",
+        "Supplies for popsicle stick frame",
+        "What do I need to make a photo frame?",
+        "List of materials for a DIY frame"
+      ],
+      "responses": [
+        "You’ll need the following materials:\n1. Popsicle sticks (regular or colored)\n2. Craft glue or a hot glue gun\n3. Paint, markers, or washi tape for decoration\n4. A photo to frame\n5. Cardboard for backing (optional)\n6. Beads, buttons, or stickers for embellishment\n\nLet me know if you need help with any step!"
+      ]
+    },
+    {
+      "tag": "photo_frame_steps",
+      "patterns": [
+        "What are the steps to make it?",
+        "How to make a popsicle stick frame?",
+        "Step-by-step guide for a DIY photo frame",
+        "Instructions for making a handmade photo frame"
+      ],
+      "responses": [
+        "Here’s a simple step-by-step guide:\n1. Arrange four popsicle sticks in a square or rectangle shape and glue them together at the corners.\n2. Let the glue dry completely.\n3. Decorate the frame with paint, markers, or stickers.\n4. Cut a piece of cardboard slightly larger than the frame and glue it to the back.\n5. Attach your photo inside the frame.\n6. Add embellishments like beads, glitter, or ribbons if desired.\n7. Let everything dry before displaying it!\n\nWould you like alternative design ideas?"
+      ]
+    },
+    {
+      "tag": "photo_frame_variations",
+      "patterns": [
+        "Any creative variations?",
+        "Different designs for popsicle stick frames?",
+        "How can I customize my frame?",
+        "Unique ideas for decorating my photo frame"
+      ],
+      "responses": [
+        "Sure! Here are some creative variations:\n- Paint the popsicle sticks in ombre colors for a gradient effect.\n- Use glitter glue or metallic markers to add sparkle.\n- Arrange the sticks in a crisscross pattern for a different look.\n- Attach small flowers, seashells, or fabric for a rustic touch.\n- Add a stand at the back using an extra stick so it can stand on a table.\n\nLet me know if you need more design tips!"
+      ]
+    },
+    {
+      "tag": "photo_frame_troubleshooting",
+      "patterns": [
+        "My frame won’t stick together",
+        "The glue isn't holding the popsicle sticks",
+        "How do I make the frame stronger?",
+        "My photo frame is unstable"
+      ],
+      "responses": [
+        "If your frame isn’t sticking properly:\n- Try using a hot glue gun instead of regular glue for a stronger bond.\n- Hold the sticks in place for a few seconds while the glue dries.\n- Reinforce the corners with an extra layer of glue.\n- If the frame is wobbly, glue additional sticks at the back for support.\n\nWould you like any more help?"
+      ]
+    },
+    {
+      "tag": "photo_frame_display",
+      "patterns": [
+        "How do I display my photo frame?",
+        "Ways to showcase my popsicle stick frame",
+        "Where can I place my handmade frame?",
+        "Ideas for using my DIY photo frame"
+      ],
+      "responses": [
+        "Here are some ideas to display your DIY frame:\n- Place it on a table or shelf with a small stand.\n- Attach a ribbon or string to the back and hang it on the wall.\n- Use double-sided tape or adhesive hooks for a clean wall display.\n- Give it as a personalized gift to someone special.\n\nWould you like more creative display ideas?"
+      ]
+    },
+  
+
         {
             "tag": "greeting",
             "patterns": [
