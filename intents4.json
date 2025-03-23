@@ -1,0 +1,273 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+              "Hii",
+              "Hello",
+              "Hey",
+              "How are you",
+              "What's up"
+            ],
+            "project_idea":  [
+              "Hi there"
+            ],
+            "steps" : []
+          },
+        {
+    "tag": "name",
+    "patterns": [
+      "What's your name",
+      "what is your name",
+      "Do you have a name",
+      "What should I call you"
+    ],
+    "project_idea":  [
+      "You can call me BOTeja.",
+      "My name is BOTeja."
+    ],
+    "steps" : []
+  },
+  {
+    "tag": "diy_general",
+    "patterns": [
+      "Can you suggest a DIY project",
+      "I need a DIY idea",
+      "What DIY project should I try?",
+      "Suggest me a craft idea",
+      "Any DIY suggestions?"
+    ],
+    "project_idea": "DIY Craft Suggestions",
+    "steps": [
+      "Make a photo frame from popsicle sticks.",
+      "Create a candle holder from old jars.",
+      "Make a custom phone stand using cardboard.",
+      "Create a wall hanging using yarn and beads."
+    ]
+  },
+  {
+    "tag": "diy_material_based",
+    "patterns": [
+      "I have cardboard, what can I make"
+    ],
+    "project_idea": "Cardboard Crafts",
+    "steps": [
+      "Create a decorative organizer.",
+      "Make a phone stand.",
+      "Build a fun toy car."
+    ]
+  },
+  {
+    "tag": "diy_material_based",
+    "patterns": [
+      "What can I do with old jars?"
+    ],
+    "project_idea": "Jar Crafts",
+    "steps": [
+      "Transform jars into candle holders.",
+      "Use them as storage containers."
+    ]
+  },
+  {
+    "tag": "diy_material_based",
+    "patterns": [
+      "Suggest a DIY using paper"
+    ],
+    "project_idea": "Paper Crafts",
+    "steps": [
+      "Try origami crafts.",
+      "Make greeting cards."
+    ]
+  },
+  {
+    "tag": "diy_material_based",
+    "patterns": [
+      "I have some fabric scraps, any ideas"
+    ],
+    "project_idea": "Fabric Scrap Projects",
+    "steps": [
+      "Make patchwork coasters.",
+      "Sew tote bags."
+    ]
+  },
+  {
+    "tag": "diy_material_based",
+    "patterns": [
+      "What DIY can I try with buttons"
+    ],
+    "project_idea": "Button Crafts",
+    "steps": [
+      "Create decorative button art.",
+      "Make button jewelry."
+    ]
+  },
+  {
+"tag": "solar_lamp",
+"patterns": ["How to make a solar lamp?", "DIY solar lamp", "Solar light project"],
+"project_idea": "DIY Solar-Powered Lamp",
+"steps": [
+  "Get a small solar panel, LED light, and a rechargeable battery.",
+  "Connect the solar panel to the battery to charge it.",
+  "Attach the LED light to the battery via a switch.",
+  "Mount everything in a waterproof container.",
+  "Let the solar panel charge during the day and use the light at night!"
+]
+},
+{
+"tag": "bird_feeder",
+"patterns": ["How to make a bird feeder?", "DIY bird feeder", "Bird feeder project","plastic bottles"],
+"project_idea": "DIY Bird Feeder",
+"steps": [
+  "Take an empty plastic bottle and cut small openings for birds to access seeds.",
+  "Insert wooden spoons as perches through the holes.",
+  "Fill the bottle with birdseed.",
+  "Hang the feeder using a string from a tree branch.",
+  "Watch birds enjoy their new feeder!"
+]
+},
+{
+"tag": "phone_stand",
+"patterns": ["How to make a phone stand?", "DIY phone holder", "Homemade phone stand","cardboard craft"],
+"project_idea": "DIY Phone Stand",
+"steps": [
+  "Find a sturdy piece of cardboard or wood.",
+  "Cut it into a shape that can hold your phone upright.",
+  "Fold or glue the pieces together for support.",
+  "Decorate it with paint or stickers.",
+  "Enjoy your handmade phone stand!"
+]
+},
+{
+"tag": "pencil_holder",
+"patterns": ["How to make a pencil holder?", "DIY desk organizer", "Homemade pen stand"],
+"project_idea": "DIY Pencil Holder",
+"steps": [
+  "Find an empty tin can or plastic cup.",
+  "Clean it thoroughly and remove any labels.",
+  "Decorate it using paint, paper, or fabric.",
+  "Optionally, divide the inside using cardboard sections.",
+  "Use it to organize your pens, pencils, and brushes!"
+]
+},
+{
+"tag": "recycled_tote_bag",
+"patterns": ["How to make a tote bag?", "DIY reusable bag", "Make a fabric bag","cloth bag","unused cloath"],
+"project_idea": "DIY Recycled Tote Bag",
+"steps": [
+  "Find an old t-shirt or fabric piece.",
+  "Cut it into a rectangular shape.",
+  "Sew the edges together to form a bag shape.",
+  "Attach two fabric strips as handles.",
+  "Customize with fabric paint or patches!"
+]
+},
+{
+"tag": "wall_art",
+"patterns": ["How to make wall art?", "DIY home decor", "Simple wall decoration"],
+"project_idea": "DIY Wall Art",
+"steps": [
+  "Gather a blank canvas or cardboard.",
+  "Choose a design (abstract, geometric, or a quote).",
+  "Paint or glue colored paper to create your design.",
+  "Frame it or hang it directly on the wall.",
+  "Admire your personalized home decor!"
+]
+},
+{
+"tag": "bookmarks",
+"patterns": ["How to make a bookmark?", "DIY bookmarks", "Easy bookmarks"],
+"project_idea": "DIY Bookmarks",
+"steps": [
+  "Cut a strip of cardboard or thick paper.",
+  "Decorate it with markers, stickers, or drawings.",
+  "Laminate it or apply clear tape for durability.",
+  "Punch a hole at the top and add a ribbon (optional).",
+  "Use your handmade bookmark in your favorite books!"
+]
+},
+{
+"tag": "homemade_candle",
+"patterns": ["How to make a candle?", "DIY candles", "Homemade scented candles"],
+"project_idea": "DIY Homemade Candle",
+"steps": [
+  "Melt wax in a heat-safe container.",
+  "Add a wick to a glass jar or mold.",
+  "Mix in fragrance oils or dried flowers.",
+  "Pour the melted wax into the container and let it cool.",
+  "Trim the wick and light up your new candle!"
+]
+},
+{
+"tag": "mini_garden",
+"patterns": ["How to make a mini garden?", "DIY indoor plants", "Terrarium project"],
+"project_idea": "DIY Mini Garden (Terrarium)",
+"steps": [
+  "Find a glass jar or bowl.",
+  "Layer small stones for drainage.",
+  "Add potting soil and small plants or succulents.",
+  "Decorate with pebbles, moss, or tiny figurines.",
+  "Water lightly and place in indirect sunlight!"
+]
+},
+{
+"tag": "wind_chime",
+"patterns": ["How to make a wind chime?", "DIY wind chimes", "Homemade chimes"],
+"project_idea": "DIY Wind Chime",
+"steps": [
+  "Gather small metal pipes, shells, or beads.",
+  "Drill small holes in them for threading.",
+  "Use a sturdy string or wire to attach them to a wooden stick.",
+  "Space them evenly to allow movement and sound.",
+  "Hang it on your balcony or near a window!"
+]
+},
+{
+"tag": "dream_catcher",
+"patterns": ["How to make a dream catcher?", "DIY dreamcatcher", "Handmade dream catcher"],
+"project_idea": "DIY Dream Catcher",
+"steps": [
+  "Take a hoop (metal or embroidery ring).",
+  "Wrap it with thread or yarn for grip.",
+  "Weave a web-like pattern using string inside the hoop.",
+  "Decorate with feathers, beads, and charms.",
+  "Hang it above your bed to catch good dreams!"
+]
+},
+{
+"tag": "keychain",
+"patterns": ["How to make a keychain?", "DIY keychain", "Homemade key ring"],
+"project_idea": "DIY Keychain",
+"steps": [
+  "Find a small piece of wood, clay, or acrylic.",
+  "Shape it and decorate with paint or engravings.",
+  "Attach a keyring using a small hole or loop.",
+  "Let it dry (if using paint or clay).",
+  "Use your personalized keychain on your bag or keys!"
+]
+},
+{
+"tag": "fabric_coasters",
+"patterns": ["How to make coasters?", "DIY fabric coasters", "Homemade cup mats"],
+"project_idea": "DIY Fabric Coasters",
+"steps": [
+  "Cut fabric into small square or circular shapes.",
+  "Layer with felt or cork backing for thickness.",
+  "Sew or glue the edges for a neat finish.",
+  "Customize with embroidery or fabric paint.",
+  "Use them to protect your table from hot drinks!"
+]
+},
+{
+"tag": "painted_flower_pots",
+"patterns": ["How to paint flower pots?", "DIY plant pots", "Decorating clay pots"],
+"project_idea": "DIY Painted Flower Pots",
+"steps": [
+  "Get plain clay or plastic pots.",
+  "Choose acrylic paint in your favorite colors.",
+  "Paint patterns, quotes, or characters on the pots.",
+  "Let them dry and apply a waterproof sealant.",
+  "Plant flowers or herbs and enjoy your colorful garden!"
+]
+}
+]
+}
