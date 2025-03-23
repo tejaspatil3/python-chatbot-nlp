@@ -94,8 +94,9 @@ def main():
         unsafe_allow_html=True,
     )
 
+
     # Load intents and train model
-    intents_file = os.path.abspath("./intents3.json")
+    intents_file = os.path.abspath("./intents4.json")
     intents = load_intents(intents_file)
     vectorizer, clf = train_chatbot(intents)
 
